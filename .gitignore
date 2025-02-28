@@ -1,0 +1,15 @@
+# Build
+node_modules/
+dist/
+build/
+out/
+
+# Log
+logs/
+*.log
+
+# Mac & Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
