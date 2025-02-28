@@ -1,0 +1,66 @@
+/* 화면 정중앙 배치 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* 페이지 제목 스타일 */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff; /* primary 색상 적용 */
+    margin-bottom: 20px;
+}
+
+/* Google 로그인 버튼 */
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 2px solid #dadce0;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5f6368;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.1s;
+    outline: none;
+}
+
+/* Google 아이콘 */
+.google-login img {
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+}
+
+/* 버튼 컬러풀한 텍스트 */
+.google-login .text {
+    background: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 버튼 hover 효과 */
+.google-login:hover {
+    background-color: #f1f3f4;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+/* 버튼 클릭 효과 */
+.google-login:active {
+    background-color: #e8eaed;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}
